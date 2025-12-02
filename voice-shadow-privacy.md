@@ -31,4 +31,5 @@ We may update our Privacy Policy from time to time. You are advised to review th
 
 ## 6. Contact Us
 If you have any questions about this Privacy Policy, please contact us at:
-*   **Email:** [你的邮箱地址]
+*   **Email:** czarul@163.com
+*   
