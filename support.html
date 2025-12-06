@@ -3,158 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voice Shadow - Support</title>
+    <meta name="description" content="Voice Shadow: Real-time Vocal Visualizer & Pitch Training App. Cyberpunk style, 100% Offline. Download for iOS.">
+    <title>Voice Shadow - Vocal Visualizer</title>
     <style>
-        :root {
-            --bg-color: #050505;
-            --card-bg: #121212;
-            --primary-cyan: #00E5FF;
-            --accent-gold: #FFD700;
-            --text-main: #FFFFFF;
-            --text-dim: #888888;
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-            align-items: center;
-            justify_content: center;
-            background-image: radial-gradient(circle at 50% 0%, #1a3a4a 0%, #050505 60%);
-        }
-
-        .container {
-            max-width: 600px;
-            width: 90%;
-            text-align: center;
-            padding: 40px 20px;
-        }
-
-        /* Logo Area */
-        .logo {
-            width: 100px;
-            height: 100px;
-            background: linear-gradient(135deg, var(--primary-cyan), var(--accent-gold));
-            border-radius: 22px;
-            margin: 0 auto 20px;
-            box-shadow: 0 0 30px rgba(0, 229, 255, 0.3);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 40px;
-            font-weight: bold;
-            color: #000;
-        }
-
-        h1 {
-            font-size: 32px;
-            margin: 0 0 10px;
-            letter-spacing: 2px;
-            text-transform: uppercase;
-        }
-
-        p.subtitle {
-            color: var(--text-dim);
-            font-size: 16px;
-            margin-bottom: 40px;
-            line-height: 1.5;
-        }
-
-        /* Support Card */
-        .card {
-            background: var(--card-bg);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            border-radius: 16px;
-            padding: 30px;
-            text-align: left;
-            margin-bottom: 30px;
-        }
-
-        .card h2 {
-            font-size: 18px;
-            margin-top: 0;
-            color: var(--primary-cyan);
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        .contact-btn {
-            display: block;
-            width: 100%;
-            padding: 15px 0;
-            margin-top: 20px;
-            background-color: var(--primary-cyan);
-            color: #000;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 8px;
-            text-align: center;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            transition: all 0.2s ease;
-        }
-
-        .contact-btn:hover {
-            background-color: #fff;
-            box-shadow: 0 0 20px var(--primary-cyan);
-        }
-
-        /* Footer Links */
-        .footer {
-            margin-top: auto;
-            padding: 20px;
-            font-size: 12px;
-            color: var(--text-dim);
-        }
-
-        .footer a {
-            color: var(--text-dim);
-            text-decoration: none;
-            margin: 0 10px;
-            transition: color 0.2s;
-        }
-
-        .footer a:hover {
-            color: var(--primary-cyan);
-        }
+        body { margin: 0; background: #050505; color: #fff; font-family: sans-serif; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; background-image: radial-gradient(circle at 50% 50%, #003333 0%, #000 70%); }
+        .logo { width: 120px; height: 120px; background: linear-gradient(135deg, #00E5FF, #FFD700); border-radius: 24px; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; font-size: 60px; font-weight: bold; color: #000; box-shadow: 0 0 50px rgba(0, 229, 255, 0.4); }
+        h1 { font-size: 2.5rem; margin: 0; letter-spacing: 2px; }
+        p { color: #888; margin: 20px 0 40px; max-width: 500px; line-height: 1.6; }
+        .btn { display: inline-block; padding: 15px 40px; background: #00E5FF; color: #000; text-decoration: none; font-weight: bold; border-radius: 30px; font-size: 1.2rem; transition: transform 0.2s; }
+        .btn:hover { transform: scale(1.05); box-shadow: 0 0 30px rgba(0, 229, 255, 0.6); }
+        .screenshots { display: flex; gap: 10px; margin-top: 40px; overflow-x: auto; padding: 10px; }
+        .shot { width: 100px; height: 180px; background: #222; border-radius: 10px; border: 1px solid #333; }
     </style>
 </head>
 <body>
+    <div class="logo">V</div>
+    <h1>VOICE SHADOW</h1>
+    <p>Professional real-time bio-acoustic analysis terminal. <br>Train your pitch. Master the shadow. <br><strong>100% Offline & Private.</strong></p>
+    
+    <!-- 🔥 替换这里为你的 App Store 链接 -->
+    <a href="https://apps.apple.com/app/id你的AppID" class="btn">Download on App Store</a>
 
-    <div class="container">
-        <!-- App Logo Placeholder -->
-        <div class="logo">V</div>
-
-        <h1>Voice Shadow</h1>
-        <p class="subtitle">Real-time Voice Visualizer & Training.<br>Analyze your frequency. Master your voice.</p>
-
-        <!-- Support Section -->
-        <div class="card">
-            <h2>Agent Support</h2>
-            <p style="color: #ccc; line-height: 1.6;">
-                Encountered a glitch in the matrix?<br>
-                If you need help, have feature requests, or want to report a bug, please contact our command center directly.
-            </p>
-            
-            <!-- 🔥 修改这里：换成你的邮箱 -->
-            <a href="mailto:czarul@163.com" class="contact-btn">
-                Email Support
-            </a>
-        </div>
-
-        <div class="footer">
-            &copy; 2025 Agent Zero Lab.
-            <br><br>
-            <!-- 🔥 修改这里：链接到你之前的隐私政策文件 -->
-            <a href="./voice-shadow-privacy.html">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-        </div>
+    <div style="margin-top: 50px; font-size: 12px; color: #444;">
+        &copy; 2025 Agent Zero Lab. <a href="./voice-shadow-privacy.html" style="color:#666;">Privacy Policy</a>
     </div>
-
 </body>
 </html>
